@@ -17,7 +17,7 @@ def ssh_nexus(ip_address, username, password):
         return None
 
     # Send command to retrieve TCAM utilization
-    stdin, stdout, stderr = ssh.exec_command("show hardware access-list resource utilization | i 'Protocol CAM'")
+    stdin, stdout, stderr = ssh.exec_command("show hardware access-list resource utilization | i "Ingress RACL"")
     output = stdout.read().decode()
 
     # Print raw output
