@@ -52,8 +52,8 @@ def create_html_table(utilization, threshold=75):
 
 # SSH settings
 hosts = [
-    {'ip_address': '192.168.86.30', 'username': 'admin', 'password': 'Iraq@1234'},
-    {'ip_address': '192.168.86.31', 'username': 'admin', 'password': 'Iraq@1234'}
+    {'ip_address': '192.168.86.30', 'username': 'admin', 'password': 'xxxxxxxx'},
+    {'ip_address': '192.168.86.31', 'username': 'admin', 'password': 'xxxxxxxx'}
 ]
 
 combined_utilization = []
